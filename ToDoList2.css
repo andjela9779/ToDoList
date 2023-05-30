@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: /*#f5f5f5;*/ #e3f1fa;
+    margin: 0;
+    padding: 30px;
+  }
+
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .input-container {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  #taskInput {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+
+  #addButton {
+    padding: 8px 16px;
+    background-color: #4e8cff;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  #taskList {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .taskItem {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .taskItem input[type="checkbox"] {
+    margin-right: 10px;
+  }
+
+  .taskItem label {
+    flex-grow: 1;
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+  }
+
+  .taskItem button {
+    padding: 6px 12px;
+    background-color: #eb3434;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .taskItem.completed label {
+    text-decoration: line-through;
+    color: #999;
+  }
